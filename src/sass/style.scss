@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+
+@import 'base/variiable';
+@import 'base/mixins';
+
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    height: 45px;
+    background-color: $color1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: 0.2s;
+    &:hover {
+        background-color: #d49011;
+    }
+}
+
+
+
+
+
+
+
+
+
+@import './promo';
+@import './sidepanel';
+@import './about';
+@import 'base/hamburger';
+@import 'base/section';
+@import './resume';
+@import './skills';
+@import './prog';
+@import './work';
+@import './price';
+@import './contacts';
+@import './media';
+
+
